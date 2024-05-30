@@ -1,0 +1,144 @@
+/* html style */
+
+html {
+
+ background-color: yellow;
+
+}
+
+/* body style */
+body {
+
+    background-color: white;
+    width: 800px;
+    border: 2px solid black;
+    margin: 0px auto;
+}
+
+/* header style */
+
+header {
+
+    height: 120px;
+    border-bottom: 2px solid blue;
+}
+
+/* website style */
+
+header img {
+
+
+    float: left;
+
+}
+
+header h1 {
+
+    text-shadow: 10px 10px 12px green;
+}
+
+header h1::first-letter {
+
+    font-size: 47px;
+    color: red;
+    margin-left: 20px;
+}
+
+/* navigation menu bar style */
+
+nav ul {
+
+    list-style-type:none;
+}
+nav ul li {
+
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a:link {
+
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+nav ul li a:visited {
+
+    color: green;
+}
+
+nav ul li a:hover {
+
+    color: red;
+    text-decoration: underline;
+
+}
+
+nav ul li a:active {
+
+    color: purple;
+    font-size: 20px;
+
+}
+/* main style */
+
+main, section, article {
+    padding: 10px;
+
+}
+
+/* table style */
+
+table, th, td {
+
+    border: 2px solid black;
+
+}
+
+table {
+
+    width: 200px;
+    margin: 2px auto;
+    border-collapse: collapse;
+}
+
+tr:hover {
+
+    background-color: yellow;
+}
+p::first-line {
+
+    color: lightgreen;
+}
+
+caption {
+
+    color: red;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+
+    color: blue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#first {
+
+    color: lightsalmon;
+    font-weight: 700;
+}
+/* footer */
+
+footer {
+
+    border-top: 2px solid blue;
+}
+
+footer p {
+
+    text-align: center;
+}
